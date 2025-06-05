@@ -1,6 +1,5 @@
 import React from 'react';
 import profile from "../images/Yogesh_Gurunath_Hitnalli-removebg-preview.png";
-import Card from 'react-bootstrap/Card';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
@@ -41,26 +40,7 @@ const Portfolie = () => {
     },
     
   ];
-      const blogs = [
-        {
-          title: "Building Your First DApp",
-          subtitle: "Solidity | Hardhat | React",
-          description: "Step-by-step guide on how to build a decentralized app using the Ethereum blockchain.",
-          link: "https://your-blog-link.com/first-dapp"
-        },
-        {
-          title: "Getting Started with Web3.js",
-          subtitle: "Web3 | JavaScript",
-          description: "A beginner-friendly introduction to using Web3.js to interact with smart contracts.",
-          link: "https://your-blog-link.com/web3-js"
-        },
-        {
-          title: "How I Built My Portfolio",
-          subtitle: "React | Tailwind | Design Tips",
-          description: "Behind the scenes of building and designing my developer portfolio.",
-          link: "https://your-blog-link.com/portfolio-journey"
-        }
-      ];
+    
   return (
     <div>
       <div className="bg-gray-50 min-h-screen text-gray-800 font-sans scroll-smooth">
